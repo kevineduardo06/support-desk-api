@@ -1,0 +1,29 @@
+{
+  "name": "support-desk-api",
+  "version": "1.0.0",
+  "description": "Multi-tenant support desk API with tickets, SLA, comments, audit logs and reports.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "vitest run",
+    "build": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["support", "tickets", "sla", "typescript", "express"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^6.3.4",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
+  }
+}
