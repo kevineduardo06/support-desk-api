@@ -1,6 +1,6 @@
 # Support Desk API
 
-A compact multi-tenant support desk API used for agentic coding tasks. It models tenants, users, tickets, comments, SLA deadlines, assignments, audit logs and operational reports.
+A compact multi-tenant support desk API originally structured for coding-assistant development exercises. It models tenants, users, tickets, comments, SLA deadlines, assignments, audit logs and operational reports.
 
 The project intentionally uses in-memory repositories to keep setup fast while preserving realistic service boundaries and business rules.
 
@@ -48,3 +48,12 @@ npm run dev
 - Refactor duplicated ticket filtering between listing and reports.
 - Add escalation logic for urgent tickets near SLA breach.
 - Debug why closed tickets are still showing in active ticket reports.
+
+
+## Current limitations and future development
+
+This is a personal development prototype, not a production deployment. Repositories currently use in-memory storage. Planned enhancements and estimated work are documented in [ROADMAP.md](ROADMAP.md). No production users or deployments are claimed.
+
+## License
+
+MIT; see [LICENSE](LICENSE).
